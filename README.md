@@ -1,14 +1,16 @@
 ### Basic Golang IBAN validator
 
+Validations:
 - Validate if country code and check digits are present
 - Validate if country code is in accepted country code list
 - Validate national BBAN code format
 - Validate mod97 check digits
 
-Test suite includes example of IBAN's for most countries. Errors are as specific as possible.
+#### Testing
+Test suite includes example of IBAN's for most countries and fake IBAN's. Errors are as specific as possible.
 
-Example usage:
-	
+#### Example
+
 	package main
 
 	import (
